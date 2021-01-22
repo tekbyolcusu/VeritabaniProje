@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="kimlikNoLBL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="kimlikNO" min="-2" pref="114" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="baslikLBL" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="geriDonBtn" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="kayitOlBtn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="telNOLBL" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="telefonNO" min="-2" pref="114" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="sifreLBL" min="-2" max="-2" attributes="0"/>
+                              <Component id="yasLBL" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="sifre" alignment="1" min="-2" pref="114" max="-2" attributes="0"/>
+                              <Component id="yas" alignment="1" min="-2" pref="114" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="adLBL" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="soyadLBL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="78" pref="78" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="soyad" min="-2" pref="114" max="-2" attributes="0"/>
+                              <Component id="ad" min="-2" pref="114" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="150" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Component id="baslikLBL" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="adLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="soyadLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="soyad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sifre" alignment="3" pref="23" max="32767" attributes="0"/>
+                  <Component id="sifreLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="yas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yasLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="telefonNO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="telNOLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kimlikNoLBL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kimlikNO" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kayitOlBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="geriDonBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="adLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="soyadLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Soyad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sifreLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x15e;ifre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yasLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ya&#x15f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="telNOLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Telefon Numaras&#x131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="sifre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="soyad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="yas">
+    </Component>
+    <Component class="javax.swing.JTextField" name="telefonNO">
+    </Component>
+    <Component class="javax.swing.JButton" name="kayitOlBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kay&#x131;t Ol"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kayitOlBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="geriDonBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Geri D&#xf6;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geriDonBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="baslikLBL">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xdc;ye Ol"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kimlikNoLBL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TC Kimlik Numaras&#x131;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kimlikNO">
+    </Component>
+  </SubComponents>
+</Form>
